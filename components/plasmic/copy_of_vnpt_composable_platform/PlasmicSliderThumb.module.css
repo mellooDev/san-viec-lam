@@ -1,0 +1,20 @@
+.root:global(.__wab_instance) {
+  position: relative;
+  background: var(--token-FGYTsG5-ZMI5);
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  height: var(--token-hc3demeHorvP);
+  width: var(--token-hc3demeHorvP);
+  border-radius: 99px;
+  border: 1px solid var(--token-SRhslmuM1QKW);
+}
+.root[data-hovered]:global(.__wab_instance) {
+  border-width: 2px;
+}
+.root[data-focus-visible]:global(.__wab_instance) {
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: var(--token-SRhslmuM1QKW);
+  outline-offset: 1px;
+}
